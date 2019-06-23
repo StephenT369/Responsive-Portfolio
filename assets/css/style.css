@@ -126,11 +126,51 @@
 /*<=== Classes ===>*/
 
 /*<=== IDs ===>*/
+#name
+{
+    width: 900px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#email
+{
+    width: 900px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 #message
 {
-    height: 250px;
+    width: 900px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    height: 150px;
     text-align: justify;
 }
+
+
+/*<=== IDs ===>*/
+
 /*<=== HTML Tags ===>*/
 header
 {
@@ -142,22 +182,9 @@ body
     background-image: url("../images/beige-tiles.png");
     margin: 0px;
 }
+/*<=== HTML Tags ===>*/
 
-input[type=text], [type=email] {
-    width: 900px;
-    
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-bottom: 25px;
-    padding-right: 25px;
-
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    float: left;
-  }
-
+/*<=== Media Queries ===> */
   @media screen and (max-width: 980px) {
     
     .pro_contain_980 {
@@ -173,7 +200,50 @@ input[type=text], [type=email] {
 
     .input_980{
         width:650px;
+        float: left;
     }
+
+#name
+{
+    width: 650px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#email
+{
+    width: 650px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message
+{
+    width: 650px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    height: 150px;
+    text-align: justify;
+}
   }
   
   @media screen and (max-width: 768px) {
@@ -214,8 +284,51 @@ input[type=text], [type=email] {
         font-weight: bolder;
     }
     .input_768{
-        width: 650px;
+        width: 550px;
+        float: left;
 
+    }
+
+    #name
+    {
+        width: 650px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    #email
+    {
+        width: 650px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    #message
+    {
+        width: 650px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+        height: 150px;
+        text-align: justify;
     }
   }
 
@@ -269,6 +382,50 @@ input[type=text], [type=email] {
     }
 
     .input_640{
-        width: 600px;
+        width: 400px;
+        float: left;
+    }
+
+    #name
+    {
+        width: 580px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    #email
+    {
+        width: 580px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    #message
+    {
+        width: 580px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+        height: 150px;
+        text-align: justify;
     }
   }
+  /*<=== Media Queries ===> */
