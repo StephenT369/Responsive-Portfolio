@@ -154,3 +154,56 @@ input[type=text], [type=email] {
     box-sizing: border-box;
     float: left;
   }
+
+  @media screen and (max-width: 980px) {
+    
+    .pro_contain_980 {
+        margin-left: 25px;
+        float: left;
+        width: 700px;
+    }
+
+    .top_contain_980{
+        margin-left: 25px;
+        width: 900px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+    .pro_contain_768 {
+        margin-left: 15px;
+        float: left;
+        width: 700px;
+    }
+
+    .top_contain_768{
+        margin-left: 15px;
+        width: 750px;
+    }
+
+    .menu_options_768{
+        margin-right: 30px;
+    }
+
+    .menu_768{
+        height: 100px;
+    }
+
+    .name_768{
+        height: 100px;
+        padding: 40px;
+        font-size: 20pt;
+        font-weight: bolder
+    }
+
+    .profile_pic_768{
+        height: 300px;
+        width: 300px;
+    }
+
+    .about_header_768{
+        font-size: 15pt;
+        font-weight: bolder;
+    }
+  }
