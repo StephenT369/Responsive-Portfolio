@@ -207,3 +207,48 @@ input[type=text], [type=email] {
         font-weight: bolder;
     }
   }
+
+  @media screen and (max-width: 640px) {
+    
+    .pro_contain_640 {
+        margin-left: 15px;
+        float: left;
+        width: 620px;
+    }
+
+    .top_contain_640{
+        margin-left: 15px;
+        width: 640px;
+    }
+
+    .menu_options_640{        
+        text-align: center;
+        float: inherit;
+    }
+
+    .menu_640{
+        height: 175px;
+        
+    }
+
+    .name_640{
+        height: 100px;
+        width: 620px;
+        padding: 40px;
+        font-size: 20pt;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .profile_pic_640{
+        height: 300px;
+        width: 300px;
+
+    }
+
+    .about_header_640{
+        font-size: 15pt;
+        font-weight: bolder;
+    }
+  }
